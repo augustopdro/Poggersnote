@@ -98,8 +98,8 @@ Uma API para o sistema de notas.
 ```js
 {
 	"data": "2023-03-02",
-	"titulo": "Tarefas 02/03"
-  "descricao": "Ir ao mercado, comprar arroz e tomate. Buscar as crianças na escola."
+	"titulo": "Tarefas 02/03",
+  	"descricao": "Ir ao mercado, comprar arroz e tomate. Buscar as crianças na escola."
 }
 ```
 
@@ -121,8 +121,8 @@ Uma API para o sistema de notas.
 ```js
 {
 	"data": "2023-03-02",
-	"titulo": "Tarefas 02/03"
-  "descricao": "Ir ao mercado, comprar arroz, feijão e tomate. Buscar as crianças na escola."
+	"titulo": "Tarefas 02/03",
+  	"descricao": "Ir ao mercado, comprar arroz, feijão e tomate. Buscar as crianças na escola."
 }
 ```
 
@@ -164,17 +164,17 @@ Uma API para o sistema de notas.
     "registros": [
         {
           "data": "2023-03-02",
-          "titulo": "Tarefas 02/03"
+          "titulo": "Tarefas 02/03",
           "descricao": "Ir ao mercado, comprar arroz e tomate. Buscar as crianças na escola."
         },
         {
           "data": "2023-03-03",
-          "titulo": "Tarefas 03/03"
+          "titulo": "Tarefas 03/03",
           "descricao": "Ir a academia. Assistir come and see."
         },
         {
           "data": "2023-03-04",
-          "titulo": "Tarefas 04/03"
+          "titulo": "Tarefas 04/03",
           "descricao": "Ir a escola. Comprar marlboro. Comprar alface."
         }    
     ]
