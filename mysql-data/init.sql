@@ -13,7 +13,6 @@ create table t_pn_usuario (
     primary key (id)
 );
 
-alter table t_pn_usuario drop index UK_3orwr8unufk7qv45cxud09ddb;
 alter table t_pn_usuario add constraint UK_3orwr8unufk7qv45cxud09ddb unique (email);
 alter table t_pn_registro add constraint FK27r7js9h6eqgu1dkhf8pr7u9l foreign key (usuario_id) references t_pn_usuario (id);
 

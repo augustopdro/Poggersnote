@@ -2,6 +2,7 @@ version: '3'
 
 services:
   api:
+    restart: on-failure
     build:
       context: .
       dockerfile: Dockerfile.api
@@ -28,7 +29,7 @@ services:
       MYSQL_USER: normaluser
       MYSQL_PASSWORD: 140203
     volumes:
-      - ./data:/var/lib/mysql
+      - db-volume:/var/lib/mysql
     networks:
       - backend
 
