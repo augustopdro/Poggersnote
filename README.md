@@ -54,9 +54,9 @@ O Docker Compose irá baixar e executar as imagens necessárias e o projeto ser�
 ## Configurações
 - A porta padrão da API é 8080. Se desejar mudá-la, altere a configuração no arquivo docker-compose.yml.
 
-- O usuário do banco de dados padrão é api_user e a senha é api_password. Se desejar alterar essas configurações, modifique o arquivo docker-compose.yml e o arquivo Dockerfile.db.
+- O usuário do banco de dados padrão é normaluser e a senha é 140203. Se desejar alterar essas configurações, modifique o arquivo docker-compose.yml e o arquivo Dockerfile.db.
 
-- Os dados do banco de dados são persistidos em um volume chamado db_data. Se você deseja persistir os dados em um diretório diferente, altere a configuração no arquivo docker-compose.yml.
+- Os dados do banco de dados são persistidos em um volume chamado db-volume. Se você deseja persistir os dados em um diretório diferente, altere a configuração no arquivo docker-compose.yml.
 
 ---
 ---
