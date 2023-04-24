@@ -1,11 +1,64 @@
 # Poggersnote
 
-Uma API para o sistema de notas.
+Este é um projeto de uma API RESTful de bloco de notas, desenvolvido em Java, Oracle e Docker. Este guia irá orientá-lo sobre como clonar e executar o projeto em sua máquina.
 
 ## FIAP - Devops & Cloud Computing 
 
 ### Checkpoint 2
 
+---
+
+## Pré-requisitos
+- [Docker](https://docs.docker.com/get-docker/)
+- [Docker Compose](https://docs.docker.com/compose/install/)
+
+---
+
+## Clonando o projeto
+- Clone o repositório em sua máquina:
+
+```bash
+{
+	git clone https://github.com/seu-usuario/seu-repositorio.git
+}
+```
+
+---
+---
+
+## Entre no diretório do projeto:
+
+```bash
+{
+	cd seu-projeto
+}
+```
+
+---
+---
+
+## Executando o projeto
+- Navegue até a pasta do projeto clonado e execute o seguinte comando:
+
+```bash
+{
+	docker-compose up
+}
+```
+
+O Docker Compose irá baixar e executar as imagens necessárias e o projeto será executado em localhost:8080.
+
+---
+---
+
+## Configurações
+- A porta padrão da API é 8080. Se desejar mudá-la, altere a configuração no arquivo docker-compose.yml.
+
+- O usuário do banco de dados padrão é api_user e a senha é api_password. Se desejar alterar essas configurações, modifique o arquivo docker-compose.yml e o arquivo Dockerfile.db.
+
+- Os dados do banco de dados são persistidos em um volume chamado db_data. Se você deseja persistir os dados em um diretório diferente, altere a configuração no arquivo docker-compose.yml.
+
+---
 ---
 
 ## Endpoints
